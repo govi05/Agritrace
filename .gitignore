@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment variables — NEVER upload this
+.env
+
+# Hardhat artifacts
+artifacts/
+cache/
+
+# Build output
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MongoDB local data
+data/db/
