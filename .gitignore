@@ -1,22 +1,31 @@
-# Dependencies
+# Node dependencies — never upload these
 node_modules/
-__pycache__/
-*.pyc
 
-# Environment variables — NEVER upload this
+# Environment variables — NEVER upload .env
 .env
 
-# Hardhat artifacts
+# Hardhat build artifacts
 artifacts/
 cache/
 
-# Build output
-build/
-dist/
+# React build output
+frontend/build/
+frontend/dist/
 
-# OS files
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+simulation/__pycache__/
+
+# Database files
+data/db/
+*.sqlite
+
+# OS clutter
 .DS_Store
 Thumbs.db
 
-# MongoDB local data
-data/db/
+# IDE files
+.vscode/
+.idea/
